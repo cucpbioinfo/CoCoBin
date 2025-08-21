@@ -11,3 +11,19 @@ pip install .
 ```
 binning-run contigs.fasta 4Mer_Composition
 ```
+# Required File Formats
+1. Contig File
+The contig file from the metaSPAdes tool contains the genomes in the following format.
+```
+>NODE_1_length_1189502_cov_16.379288
+AAGCCTCTCACCCAAGCCCCGGATGAACAACCTTCATAGCTTCGACATCTAGAGCAGCCG
+>NODE_2_length_1127036_cov_16.549343
+ACAGGCCCACAATGCATTAGACACAAGCCGGACCACTCAATAGGGGCAGGTCACGGGTGA
+>NODE_3_length_1009819_cov_16.436396
+TCCAAAGGCTCAAAAAGCCTACTTCACGGAGGACCACTTTTCAGGGGGCAGGCCACGCTC
+```
+2. Composition Features File
+Run the following command in the iLearn tool to access the Composition features file.
+```
+python descnucleotide/RCKmer.py --file contigs.fasta --kmer 4 --normalize --format csv --out 4Mer_Composition
+```
