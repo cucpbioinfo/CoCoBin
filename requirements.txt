@@ -1,0 +1,6 @@
+python >= 3.7
+pandas >=2.0.0,<2.3.1
+numpy >=1.20,<2.3.0
+network >=3.0,<3.6
+biopython >=1.78,<2.0
+scikit-learn >=1.2,<1.8
