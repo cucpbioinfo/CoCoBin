@@ -7,3 +7,7 @@ git clone https://github.com/cucpbioinfo/CoCoBin.git
 cd Metagenomic-Binning/Binning_project/
 pip install .
 ```
+2. Then run following command to run the tool.
+```
+binning-run contigs.fasta 4Mer_Composition
+```
