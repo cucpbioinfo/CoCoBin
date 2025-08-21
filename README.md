@@ -3,7 +3,7 @@ The CoCoBin is a multi-stage binning method designed to enhance metagenomic anal
 # Installation
 1. First clone the BowModel repository to a local directory. Note that BowModel only supports linux.
 ```
-git clone https://github.com/Khuanwara/Metagenomic-Binning.git
+git clone https://github.com/cucpbioinfo/CoCoBin.git
 cd Metagenomic-Binning/Binning_project/
 pip install .
 ```
